@@ -92,3 +92,101 @@ footer {
     font-size: 0.9rem;
     color: #666;
 }
+
+/* Contato */
+#contact {
+    background-color: #0f0f0f;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h1 {
+    color: #00ff88;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#contact hr {
+    width: 60px;
+    border: 2px solid #00ff88;
+    margin: 20px auto;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact label {
+    text-align: left;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    border: 1px solid #00ff88;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#contact button {
+    padding: 12px;
+    background-color: #00ff88;
+    color: #0f0f0f;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #00cc66;
+}
+
+/* Botão WhatsApp */
+#button3 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+#button3:hover {
+    background-color: #1ebe5d;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .service-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .banner h2 {
+        font-size: 1.5rem;
+    }
+}
