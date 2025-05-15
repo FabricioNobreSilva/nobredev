@@ -108,3 +108,7 @@ body {
         max-width: 300px;
     }
 }
+
+span{
+    color: red;
+}
